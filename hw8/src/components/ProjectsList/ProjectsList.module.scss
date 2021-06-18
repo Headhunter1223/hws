@@ -1,0 +1,22 @@
+.ProjectsList {
+  background: var(--light-background);
+  padding: 7px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  text-decoration: none;
+  color: var(--color);
+  height: 60px;
+  display: flex;
+  align-items: center;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  span {
+    font-size: 29px;
+    font-weight: 700;
+  }
+}
