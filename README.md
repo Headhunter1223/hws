@@ -1,3 +1,6 @@
+# папка hw это 4 домашнее задание. 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
