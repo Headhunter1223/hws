@@ -1,0 +1,31 @@
+p.done {
+  background: green;
+  padding: 3px;
+  font-weight: 500;
+  color: #fff;
+  border-radius: 3px;
+}
+
+p.notDone {
+  background: red;
+  padding: 3px;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 3px;
+}
+
+.Task {
+  transition: .2s transform ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--bold-background);
+  color: var(--background);
+  padding: 6px;
+  margin-top: 5px;
+  border-radius: 4px;
+
+  &:hover {
+    transform: translate(20px, 0);
+  }
+}
